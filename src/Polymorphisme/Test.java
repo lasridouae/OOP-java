@@ -8,17 +8,17 @@ public class Test {
             ArrayList<Abonne> abonnes=new ArrayList<Abonne>();
 
 
-            Bibliotheque B1=new Bibliotheque("titre1", "12/12/2020", false,ouvrages,abonnes);
-            ouvrages.add(new Ouvrage("objet1","ddd",false));
-            ouvrages.add(new Ouvrage("objet2","ddd",false));
+            Bibliotheque B1=new Bibliotheque("titre", "12/9/2020", false,ouvrages,abonnes);
+            ouvrages.add(new Ouvrage("obj","ddd",false));
+            ouvrages.add(new Ouvrage("obj","ddd",false));
 
-            abonnes.add(new Abonne(1,"zahid",123));
-            abonnes.add(new Abonne(2,"fatima",123));
+            abonnes.add(new Abonne(1,"lasri",12));
+            abonnes.add(new Abonne(2,"douae",12));
 
 
-            B1.ajoutOuvrage(new Ouvrage("objet1","ddd",false));
-            B1.ajoutOuvrage(new Ouvrage("objet1","ddd",false));
-            B1.ajoutOuvrage(new Ouvrage("objet1","ddd",false));
+            B1.ajoutOuvrage(new Ouvrage("obj","date",false));
+            B1.ajoutOuvrage(new Ouvrage("obj","date",false));
+            B1.ajoutOuvrage(new Ouvrage("obj","date",false));
             System.out.println("ouvrages List : " +ouvrages);
             B1.afficher();
         }

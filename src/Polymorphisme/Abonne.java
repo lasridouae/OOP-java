@@ -1,10 +1,5 @@
 package Polymorphisme;
 
-/*est caractérisé par son numéro d’identité (entier),
- *  son nom (String), le numéro de son abonnement (entier)
- *  et l’ouvrage pris de la bibliothèque (un abonné peut prendre à la fois un seul ouvrage).
- */
-
 public class Abonne {
 
     private int num;
